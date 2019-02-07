@@ -303,3 +303,64 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+
+
+.shadow-1 {
+  float: left;
+  width: 32%;
+  margin-right: 1%;
+}
+
+.shadow-2 {
+  float: left;
+  width: 32%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.shadow-3 {
+  float: left;
+  width: 32%;
+  margin-left: 1%;
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+div.border_right {
+    float: left;
+    text-align: left;
+    width: 33.3%; 
+}
+
+[class*="shadow"] {
+  margin-top: 2%;
+}
+
+.holidays  {
+  margin-bottom: 10px;
+}
+
+.col-1 {
+  float: left;
+  width: 66%;
+}
+
+.col-2{
+  float: left;
+  width: 34%;
+  margin-bottom: 5px;
+  padding-bottom: 24px;
+}
+
+    
