@@ -324,7 +324,7 @@ footer a {
   margin-left: 1%;
 }
 
-.clearfix:after{
+.clearfix:after {
   content: ".";
   display: block;
   clear: both;
@@ -356,7 +356,7 @@ div.border_right {
   width: 66%;
 }
 
-.col-2{
+.col-2 {
   float: left;
   width: 34%;
   margin-bottom: 5px;
